@@ -4,7 +4,7 @@ Claude Code skills for working with [Higgsfield AI](https://higgsfield.ai) promp
 
 Currently includes:
 
-- **`higgsfield-fx`** — A focused FX (visual effects) layer builder for **still-image** Higgsfield prompts. Provides English vocabulary and phrasing across 7 categories (Impact / Particle / Fluid / Optical / Atmospheric / Magical / Material), plus collision-avoidance and density rules. Designed as an **add-on** that augments prompts produced by the main Higgsfield prompt skill (e.g. [OSideMedia/higgsfield-ai-prompt-skill](https://github.com/OSideMedia/higgsfield-ai-prompt-skill)) rather than replacing them.
+- **`higgsfield-fx`** — A focused FX (visual effects) layer builder for **still-image** Higgsfield prompts. Provides English vocabulary and phrasing across 7 categories (Impact / Particle / Fluid / Optical / Atmospheric / Magical / Material), plus collision-avoidance and density rules. Designed as a self-contained **add-on** that augments prompts produced by your existing Higgsfield prompt workflow rather than replacing it.
 
 ## What `higgsfield-fx` does
 
@@ -64,7 +64,7 @@ Density rule: one primary category + 1–2 secondary. Asking for 4+ at once trig
 ## Scope
 
 - **In scope**: still-image FX layering for any Higgsfield image model (Soul 2.0, Soul Cinema Preview, Nano Banana 2, Kling Image 3.0, Seedream, etc.)
-- **Out of scope**: video FX (use `higgsfield-motion` from OSideMedia for named presets like `Disintegration`, `Plasma Explosion`), non-photoreal style overlays (use `higgsfield-mixed-media`), the main prompt skeleton (Subject / Camera / Action — covered by `higgsfield-prompt`)
+- **Out of scope**: video FX (Higgsfield's video-side motion presets like `Disintegration`, `Plasma Explosion` cover that), non-photoreal style overlays, and the main prompt skeleton (Subject / Camera / Action)
 
 ## License
 
